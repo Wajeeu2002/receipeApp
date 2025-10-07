@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.typing {
+  margin: 1.6em;
+  background-color: #fff;
+  margin-right: 0.4em;
+}
+.btn {
+  border-radius: 30% 30%;
+  color: #fff;
+  background-color: #38e54d;
+  padding: 0.3em;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: #fff;
+}
+.article {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 2em;
+  justify-content: center;
+
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .article {
+    grid-template-columns: auto;
+  }
+}
+@media (min-width: 765px) {
+  .article {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 1080px) {
+  .article {
+    grid-template-columns: auto auto auto;
+  }
+}
+.head {
+  margin-top: 1em;
+  width: 19em;
+}
+h1 {
+  margin-bottom: 1em;
+}
+
+.list {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.img {
+  width: 19em;
+}
+
